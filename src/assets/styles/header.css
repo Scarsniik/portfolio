@@ -1,0 +1,17 @@
+.header {
+    display: flex;
+    height: 2rem;
+    background-color: #535E66;
+    justify-content: center;
+    
+    & a {
+        font-size: 1.1rem;
+        padding: 0.3rem 0.7rem;
+
+
+        &.active {
+            border-bottom: 3px #78D8AE solid;
+            color: #78D8AE;
+        }
+    }
+}

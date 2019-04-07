@@ -1,0 +1,21 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #313647;
+    color: white;
+
+    & button {
+        background-color: transparent;
+        border: none;
+        color: white;
+        cursor: pointer;
+    }
+
+    & a {
+        text-decoration: none;
+
+        &:visited {
+            color: unset;
+        }
+    }
+} 
