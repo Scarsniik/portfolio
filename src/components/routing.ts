@@ -1,7 +1,8 @@
 import { Routing } from "../models/router";
 
 import Home from "./Home";
-import SkillList from "./skills/SkillList";
+import Skills from "./categories/Skills";
+import Realisations from "./categories/Realisations";
 
 const routing: Routing = {
     "home": {
@@ -12,12 +13,12 @@ const routing: Routing = {
     "skills": {
         path: "/skills",
         exact: true,
-        component: SkillList,
+        component: Skills,
     },
     "realisations": {
         path: "/realisations",
         exact: true,
-        component: Home,
+        component: Realisations,
     }
 }
 

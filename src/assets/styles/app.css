@@ -12,8 +12,8 @@ body {
     }
 
     & a {
-        text-decoration: none;
-
+        text-decoration: underline;
+        color: unset;
         &:visited {
             color: unset;
         }
