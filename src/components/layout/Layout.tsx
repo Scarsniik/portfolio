@@ -1,9 +1,11 @@
 import * as React from "react";
 
+import Header from "./Header";
+
 import "./../../assets/styles/layout.css";
 
 interface Props {
-    header: any;
+    currentKey: any;
 }
 
 export default class Layout extends React.Component<Props> {
@@ -11,7 +13,7 @@ export default class Layout extends React.Component<Props> {
     render() {
         return (
             <div className="layout">
-                { this.props.header && this.props.header}
+                <Header currentKey={this.props.currentKey}/>
                 <div className="layout-body">
                     {this.props.children}
                 </div>

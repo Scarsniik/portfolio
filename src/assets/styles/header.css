@@ -7,7 +7,7 @@
     & a {
         font-size: 1.1rem;
         padding: 0.3rem 0.7rem;
-
+        color: #78D8AE;
 
         &.active {
             border-bottom: 3px #78D8AE solid;
