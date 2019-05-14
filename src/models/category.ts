@@ -2,6 +2,7 @@ export interface Item {
     id: string;
     article: any;
     title: string;
+    description?: string;
 }
 
 export interface Category {

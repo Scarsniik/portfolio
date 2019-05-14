@@ -3,6 +3,7 @@ import { Routing } from "../models/router";
 import Home from "./Home";
 import Skills from "./categories/Skills";
 import Realisations from "./categories/Realisations";
+import Item from "./utils/Item";
 
 const routing: Routing = {
     "home": {
@@ -19,6 +20,14 @@ const routing: Routing = {
         path: "/realisations",
         exact: true,
         component: Realisations,
+    },
+    "item": {
+        path: "/:category/:item",
+        component: Item,
+    },
+    "default": {
+        path: "/",
+        component: Home,
     }
 }
 

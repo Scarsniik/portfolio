@@ -1,6 +1,6 @@
 export interface Route {
     path: string;
-    exact: boolean;
+    exact?: boolean;
     component: any;
 }
 

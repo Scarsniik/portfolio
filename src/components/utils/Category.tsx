@@ -1,27 +1,32 @@
 import * as React from "react";
-
 import { Link } from "react-router-dom";
+import { withRouter, RouteComponentProps } from "react-router";
 
 import { Category } from "../../models/category";
 
 import "./../../assets/styles/article.css";
 
-interface Props {
+interface Props extends RouteComponentProps{
     category: Category;
+    className?: string;
 }
 
-export default class CategoryPage extends React.Component<Props> {
+class CategoryPage extends React.Component<Props> {
     public render() {
-        const {category} = this.props
-        return (<>
-            <h1>{ category.title }</h1>
-            { category.data.map((skill, index) =>
-                <Link to={`skills/${skill.id}`}>
-                    <div className="skill-box">
-                        <h2>{skill.title}</h2>
-                    </div>
-                </Link>
-            )}
-        </>);
+        const {category, className} = this.props;
+        return (
+            <div className={className}>
+                <h1>{ category.title }</h1>
+                { category.data.map((skill, index) =>
+                    <Link key={index} to={`${category.id}/${skill.id}`}>
+                        <div className="item-box">
+                            <h2>{skill.title}</h2>
+                        </div>
+                    </Link>
+                )}
+            </div>
+        );
     }
 }
+
+export default withRouter<Props>(CategoryPage);
