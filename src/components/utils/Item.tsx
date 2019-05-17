@@ -29,10 +29,10 @@ class CategoryItemPage extends React.Component<Props, State> {
     }
     public componentDidMount() {
         const params = this.props.match.params as any;
-        const category = data[params.category];
+        const category: Category = data[params.category];
         let item;
         if (category) {
-            item = category.data.filter((value) => value.id === params.item)[0];
+            item = Object.values(category.data).filter((value) => value.id === params.item)[0];
         }
 
         this.setState({category, item});

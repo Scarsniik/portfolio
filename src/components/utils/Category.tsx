@@ -20,7 +20,7 @@ class CategoryPage extends React.Component<Props> {
             <div className={className}>
                 <h1>{ category.title }</h1>
                 <div className={"category-box"}>
-                    { category.data.map((skill, index) =>
+                    { Object.values(category.data).map((skill, index) =>
                         <Link key={index} to={`${category.id}/${skill.id}`}>
                             <div className="item-box">
                                 <h2>{skill.title}</h2>

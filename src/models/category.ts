@@ -8,10 +8,13 @@ export interface Item {
 export interface Category {
     id: string;
     title: string;
-    data: Item[];
+    data: {
+        [name: string]: Item;
+    };
 }
 
-export interface Competence {
+export interface Skill {
     id: string;
-    
+    name: string;
+    item: Item;
 }

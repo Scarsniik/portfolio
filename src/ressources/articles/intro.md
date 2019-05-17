@@ -1,11 +1,12 @@
-Léo Stéfani
+Je suis un développeur **TypeScript** / **React**, je fais principalement du **front end** pour l’entreprise Noop.
+
+Mes valeurs au travail :
+========================
+
+Lors de mes différentes expériences professionnelles j’ai pu travailler sur de nombreux projet ayant pour but l’**accessibilité** aux personnes ayant un handicap. J’ai par exemple travaillé sur un lecteur d’epub (un format de livre électronique) ou encore un site proposant des exercices pour les enfants déficients. Ces deux projet m’ont donné une autre dimension de mon travail, je me suis rendu compte à quel point les développeurs ignorent les mechanique d’accessibilité et rendent la vie des handicapé compliqué. Depuis, je met un point d’honneur à rendre tous les programmes que fait le plus **accessible** possible.
+
+Mes hobbies
 ===========
 
-Je m'appelle Léo, et je suis un pédalo, lolilolilol.
-Je suis un developpeur full stack (à peu près(enfin je pense que je peux faire du back même si je fais que du front)) et je cherche pas de boulot parce que je suis bien là où je suis pour le moment alors allez vous faire *mettre* svp :)
-
-J'ai quelques <Link to="realisations">réalisations</Link> à mon actif et je dispose de nombreux <Link to="skills">compétences</Link> qui font de moi quelqu'un de parfait
-
-**Thibaud c'est mon copain :D**
-
-![image](./../../assets/img/react_logo.svg)
+Je suis un grand fan de **manga** et en possède un collection assez grande (plus de 1000 tomes), j’aime également les **jeux vidéos**, le développement de projet personnelles.
+J’aime aussi la survie et l’urbex.
