@@ -1,6 +1,50 @@
 .article {
+    max-width: 75rem;
+    margin: auto;
+    font-size: 1.1rem;
+    text-align: justify;
+
     & img {
         max-width: 100px;
         max-height: 100px;
+    }
+
+    & h1 {
+        background-color: #98b0de;
+        color: white;
+        width: 25rem;
+        height: 4rem;
+        margin: 2.5rem auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+
+        &::before, &::after {
+            content: "";
+            position: absolute;
+        }
+
+        &::before {
+            left: -2rem;
+
+            border-top: 2rem solid #98b0de;
+            border-bottom: 2rem solid #98b0de;
+            border-left: 2rem solid transparent;
+        }
+
+        &::after {
+            right: -2rem;
+
+            border-top: 2rem solid #98b0de;
+            border-bottom: 2rem solid #98b0de;
+            border-right: 2rem solid transparent;
+        }
+    }
+
+    & h2 {
+        margin-top: 3rem;
+        border-bottom: 2px solid #98b0de;
+        padding-bottom: 0.5rem;
     }
 }

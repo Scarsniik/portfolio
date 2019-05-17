@@ -38,6 +38,9 @@ const realisations: Category = {
             title: "Galt",
             article: galt,
             description: "",
+            skills: [
+                skills.data.typescript,
+            ]
         },
     },
 };

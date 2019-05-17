@@ -17,8 +17,8 @@ class CategoryPage extends React.Component<Props> {
     public render() {
         const {category, className} = this.props;
         return (
-            <div className={className}>
-                <h1>{ category.title }</h1>
+            <div className={classnames("category-wrapper", className)}>
+                <h1 className="category-title">{ category.title }</h1>
                 <div className={"category-box"}>
                     { Object.values(category.data).map((skill, index) =>
                         <Link key={index} to={`${category.id}/${skill.id}`}>

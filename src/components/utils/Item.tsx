@@ -1,5 +1,6 @@
 import * as React from "react";
 import { withRouter, RouteComponentProps } from "react-router";
+import { Link } from "react-router-dom";
 
 import Article from "./Article";
 import Layout from "../layout/Layout";
@@ -45,7 +46,7 @@ class CategoryItemPage extends React.Component<Props, State> {
                 { item &&
                     <div className={item.id}>
                         { item.article ?
-                            <Article text={item.article}/>
+                            <Article item={item} text={item.article}/>
                         :
                             <p>Work in progess</p>
                         }

@@ -3,6 +3,7 @@ export interface Item {
     article: any;
     title: string;
     description?: string;
+    skills?: Item[];
 }
 
 export interface Category {
@@ -11,10 +12,4 @@ export interface Category {
     data: {
         [name: string]: Item;
     };
-}
-
-export interface Skill {
-    id: string;
-    name: string;
-    item: Item;
 }

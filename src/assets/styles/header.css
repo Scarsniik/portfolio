@@ -1,18 +1,37 @@
 .header {
     display: flex;
-    height: 2rem;
-    background-color: #535E66;
+    height: 4rem;
+    background-color: #446d8c;
     justify-content: center;
     
     & a {
-        font-size: 1.1rem;
+        font-size: 1.3rem;
         padding: 0.3rem 0.7rem;
-        color: #78D8AE;
+        color: white;
         text-decoration: none;
+        font-weight: bold;
+
+        display: flex;
+        align-items: center;
 
         &.active {
-            border-bottom: 3px #78D8AE solid;
-            color: #78D8AE;
+            background-color: #98b0de;
+            position: relative;
+
+            &::after {
+                content: "";
+                position: absolute;
+                bottom: 0;
+                left: calc(50% - 10px);
+
+                border-bottom: 10px solid white;
+                border-left: 10px solid transparent;
+                border-right: 10px solid transparent;
+            }
+        }
+
+        &:visited {
+            color: white;
         }
     }
 }
