@@ -70,6 +70,7 @@
   "dependencies": {
     "@types/react-router": "^4.4.5",
     "@types/react-router-dom": "^4.3.1",
+    "classnames": "^2.2.6",
     "html-loader": "^0.5.5",
     "markdown-loader": "^5.0.0",
     "markdown-to-jsx": "^6.9.3",

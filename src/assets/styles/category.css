@@ -1,0 +1,14 @@
+.category-box {
+    display: flex;
+    justify-content: center;
+
+    & .item-box {
+        padding: 1rem;
+        background-color: white;
+        color: #545E66;
+        margin: 1rem;
+        width: 10rem;
+        height: 15rem;
+        border-radius: 5%;
+    }
+}

@@ -1,4 +1,4 @@
-Readium Desktop
+Thorium
 ===============
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sed scelerisque quam. Sed vitae arcu enim. Etiam metus orci, vulputate nec felis id, rutrum molestie lectus. Suspendisse id consectetur ligula. Integer dictum rhoncus sapien, vel fringilla leo sagittis in. Cras quis euismod enim, et viverra augue. Nam elementum sapien non sapien elementum tincidunt. Integer et ultricies libero, eu efficitur justo. Duis erat felis, luctus vel ultrices maximus, pellentesque id nibh.

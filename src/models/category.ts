@@ -10,3 +10,8 @@ export interface Category {
     title: string;
     data: Item[];
 }
+
+export interface Competence {
+    id: string;
+    
+}

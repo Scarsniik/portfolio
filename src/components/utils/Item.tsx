@@ -44,7 +44,11 @@ class CategoryItemPage extends React.Component<Props, State> {
             <Layout currentKey={category.id}>
                 { item &&
                     <div className={item.id}>
-                        <Article text={item.article}/>
+                        { item.article ?
+                            <Article text={item.article}/>
+                        :
+                            <p>Work in progess</p>
+                        }
                     </div>
                 }
             </Layout>

@@ -1,14 +1,14 @@
 import { Category } from "../../models/category";
 
-import * as r2de from "../articles/r2de.md"
+import * as r2de from "../articles/thorium.md"
 
 const realisations: Category = {
     id: "realisations",
     title: "Réalisations",
     data: [
         {
-            id:"r2de",
-            title: "Readium Desktop",
+            id:"thorium",
+            title: "Thorium",
             article: r2de,
             description: "",
         },
