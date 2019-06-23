@@ -23,6 +23,7 @@ const routing: Routing = {
     },
     "item": {
         path: "/:category/:item",
+        exact: true,
         component: Item,
     },
     "default": {

@@ -3,6 +3,11 @@ Léo Stéfani
 
 Je suis un développeur **<Link to="/skills/typescript">TypeScript</Link> / <Link to="/skills/react">React</Link>**, je fais principalement du **front end** pour l’entreprise Noop.
 
+Mon parcours :
+---------------
+
+<Timeline/>
+
 Mes valeurs au travail :
 ------------------------
 

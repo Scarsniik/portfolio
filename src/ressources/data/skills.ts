@@ -23,7 +23,7 @@ const skills: Category = {
         },
         accessibility: {
             id: "accessibility",
-            title: "Accécibilité",
+            title: "Accessibilité",
             article: undefined,
         },
         proposition: {

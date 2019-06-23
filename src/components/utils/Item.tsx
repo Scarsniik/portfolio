@@ -1,6 +1,5 @@
 import * as React from "react";
 import { withRouter, RouteComponentProps } from "react-router";
-import { Link } from "react-router-dom";
 
 import Article from "./Article";
 import Layout from "../layout/Layout";

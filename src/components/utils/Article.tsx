@@ -3,6 +3,8 @@ import * as React from "react";
 import Markdown from 'markdown-to-jsx';
 
 import { Link } from "react-router-dom";
+import Timeline from "./Timeline/Timeline";
+import Image from "./Image";
 
 import { Item } from "../../models/category";
 
@@ -41,6 +43,12 @@ export default class Article extends React.Component<Props> {
                         Link: {
                             component: Link,
                         },
+                        Timeline: {
+                            component: Timeline,
+                        },
+                        Image: {
+                            component: Image,
+                        }
                     },
                 }}
             >

@@ -1,6 +1,5 @@
 import * as React from "react";
 import { Link } from "react-router-dom";
-import { withRouter, RouteComponentProps } from "react-router";
 
 import { Category } from "../../models/category";
 
@@ -8,12 +7,12 @@ import classnames from "classnames";
 
 import "./../../assets/styles/category.css";
 
-interface Props extends RouteComponentProps{
+interface Props{
     category: Category;
     className?: string;
 }
 
-class CategoryPage extends React.Component<Props> {
+export default class CategoryPage extends React.Component<Props> {
     public render() {
         const {category, className} = this.props;
         return (
@@ -32,5 +31,3 @@ class CategoryPage extends React.Component<Props> {
         );
     }
 }
-
-export default withRouter<Props>(CategoryPage);
