@@ -1,6 +1,6 @@
 import * as React from "react";
 
-import { Route, BrowserRouter as ReactRouter, Switch } from "react-router-dom";
+import { Route, HashRouter as ReactRouter, Switch } from "react-router-dom";
 import routing from "./routing";
 
 export default class Router extends React.Component<any> {

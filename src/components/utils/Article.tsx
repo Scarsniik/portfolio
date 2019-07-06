@@ -4,6 +4,7 @@ import Markdown from 'markdown-to-jsx';
 
 import { Link } from "react-router-dom";
 import Timeline from "./Timeline/Timeline";
+import GroupImage from "./GroupImage";
 import Image from "./Image";
 
 import { Item } from "../../models/category";
@@ -48,7 +49,10 @@ export default class Article extends React.Component<Props> {
                         },
                         Image: {
                             component: Image,
-                        }
+                        },
+                        GroupImage: {
+                            component: GroupImage
+                        },
                     },
                 }}
             >

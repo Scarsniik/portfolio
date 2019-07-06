@@ -21,7 +21,7 @@ export default class Timeline extends React.Component<{}, State> {
         return (
             <div className="timelineWrapper">
                 <div className="timeline">
-                <TimelinePoint
+                    <TimelinePoint
                         title="Diplome d'expert en ingenieurie Logiciel"
                         description="Diplome à INTECH"
                         date="Fin 2019"

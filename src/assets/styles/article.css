@@ -4,9 +4,39 @@
     font-size: 1.1rem;
     text-align: justify;
 
-    & img {
-        max-width: 100px;
-        max-height: 100px;
+    & .groupImage {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        & img {
+            height: 200px;
+            margin-bottom: 20px;
+            border: #eaeaea solid 1px;
+            margin-right: 4rem;
+        }
+
+        & .activeImage {
+            background-color: rgba(0, 0, 0, .7);
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            & img {
+                height: unset;
+                max-height: 80%;
+                max-width: 80%;
+            }
+            & .closeButton {
+                position: fixed;
+                top: 2rem;
+                right: 2rem;
+            }
+        }
     }
 
     & h1 {

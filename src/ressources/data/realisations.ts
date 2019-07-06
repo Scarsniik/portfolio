@@ -1,7 +1,9 @@
 import { Category } from "../../models/category";
 
 import * as r2de from "../articles/thorium.md";
+import * as fovea from "../articles/fovea.md";
 import * as galt from "../articles/galt.md";
+import * as lmc from "../articles/lmc.md";
 
 import skills from "./skills";
 
@@ -18,19 +20,19 @@ const realisations: Category = {
         fovea: {
             id:"fovea",
             title: "Fovea",
-            article: undefined,
+            article: fovea,
             description: "",
         },
-        womba: {
-            id:"womba",
-            title: "Womba",
-            article: undefined,
-            description: "",
-        },
-        hostingpower :{
-            id:"hostingpower",
-            title: "Hosting Power",
-            article: undefined,
+        // womba: {
+        //     id:"womba",
+        //     title: "Womba",
+        //     article: undefined,
+        //     description: "",
+        // },
+        lmc :{
+            id:"lmc",
+            title: "LMC VOD Desktop",
+            article: lmc,
             description: "",
         },
         galt: {

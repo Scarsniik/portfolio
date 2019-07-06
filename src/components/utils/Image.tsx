@@ -3,15 +3,15 @@ import { RouteComponentProps } from "react-router";
 
 import "./../../assets/styles/article.css";
 
-interface Props extends RouteComponentProps{
+interface Props{
     name: string;
+    onClick?: () => void;
 }
 
 export default class Image extends React.Component<Props> {
     public render() {
-        const { name } = this.props;
-        const image = require("./../../ressources/images/thorium1.jpg");
-        console.log(image);
-        return <img src={ image }/>
+        const { name,onClick } = this.props;
+        const image = require(`./../../ressources/images/${name}.png`);
+        return <img onClick={onClick} src={ image }/>
     }
 }

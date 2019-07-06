@@ -10,6 +10,4 @@ J'ai effectué toute la partie front end de ce projet.
 Images
 ------
 
-<Image name="thorium1">
-<Image name="thorium2">
-<Image name="thorium3">
+<GroupImage name="thorium"/>
