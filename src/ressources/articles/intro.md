@@ -16,5 +16,4 @@ Lors de mes différentes expériences professionnelles j’ai pu travailler sur 
 Mes hobbies
 -----------
 
-Je suis un grand fan de **manga** et en possède un collection assez grande (plus de 1000 tomes), j’aime également les **jeux vidéos**, le développement de projet personnelles.
-J’aime aussi la survie et l’urbex.
+Je suis un grand fan de **manga** et en possède un collection assez grande (plus de 1100 tomes), j’aime également les **jeux vidéos**, le développement de projet personnelles en informatique. Je fais aussi de l'ecalade et de l'urbex.
