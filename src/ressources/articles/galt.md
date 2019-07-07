@@ -6,3 +6,8 @@ Galt est un projet sur lequel j’ai travaillé pendant mon semestre 5 dans l’
 Ce graph permettait, grâce à un code couleur, de mettre en évidence les conflit de versions des différentes dépendances. C’est à dire lorsque plusieurs packages dépendent d’un même package à des versions différentes, voir incompatibles.
 
 Pour ce projet j’ai essentiellement travaillé sur l’affichage du graphe grâce à l’outil D3.js qui permet de faire des graphes de manière assez poussé. C’est le premier vrai projet sur lequel j’ai travaillé et qui m’a rendu fier de moi. Il nous a également permit d’obtenir la 4eme place lors de l'événement “Forum des projet” à IN'TECH qui se déroule chaque semestre.
+
+Compétences liées
+-----------------
+
+**<Link to="/skills/typescript">Typescript</Link>**

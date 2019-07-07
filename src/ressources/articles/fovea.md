@@ -10,6 +10,15 @@ Fovea est entierement **<Link to="/skills/accessibility">accessible</Link>**. Ce
 
 J'ai effectué toute la partie front end de ce projet.
 
+Compétences liées
+-----------------
+
+**<Link to="/skills/react">React</Link>**
+
+**<Link to="/skills/typescript">Typescript</Link>**
+
+**<Link to="/skills/accessibility">Accessibilité</Link>**
+
 Images
 ------
 

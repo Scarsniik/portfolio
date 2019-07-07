@@ -5,4 +5,13 @@ Le TypeScript est un langage de programmation libre et open source développé p
 
 Il permet notement de typer les variable et donne de nombreuses fonctions utiles qui permettent de rendre la programation en javascript plus sécurisé et fiable.
 
-J'ai travaillé sur de nombreux projets en typescript comme **<Link to="/realisations/thorium">Thorium</Link>**, **<Link to="/realisations/thorium">Fovea</Link>** ou encore **<Link to="/realisations/lmc">LMC</Link>**
+Projets liés
+------------
+
+**<Link to="/realisations/thorium">Thorium</Link>**
+
+**<Link to="/realisations/fovea">Fovea</Link>**
+
+**<Link to="/realisations/lmc">LMC</Link>**
+
+**<Link to="/realisations/galt">Galt</Link>**

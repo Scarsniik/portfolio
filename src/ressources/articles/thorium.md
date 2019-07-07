@@ -7,6 +7,17 @@ L'application permet donc d'ajouter des fichier EPUB à sa bibliotheque pour pou
 
 J'ai effectué toute la partie front end de ce projet.
 
+Compétences liées
+-----------------
+
+**<Link to="/skills/electron">Electron</Link>**
+
+**<Link to="/skills/react">React</Link>**
+
+**<Link to="/skills/typescript">Typescript</Link>**
+
+**<Link to="/skills/accessibility">Accessibilité</Link>**
+
 Images
 ------
 

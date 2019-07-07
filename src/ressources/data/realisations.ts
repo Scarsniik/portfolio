@@ -23,12 +23,6 @@ const realisations: Category = {
             article: fovea,
             description: "",
         },
-        // womba: {
-        //     id:"womba",
-        //     title: "Womba",
-        //     article: undefined,
-        //     description: "",
-        // },
         lmc :{
             id:"lmc",
             title: "LMC VOD Desktop",
@@ -40,9 +34,6 @@ const realisations: Category = {
             title: "Galt",
             article: galt,
             description: "",
-            skills: [
-                skills.data.typescript,
-            ]
         },
     },
 };
