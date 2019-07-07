@@ -30,8 +30,7 @@
     "start:dev": "webpack-dev-server --config=configs/webpack/dev.js",
     "start:prod": "npm run build && node express.js",
     "test": "jest --watch --coverage --config=configs/jest.json",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "deploy": "npm run build && surge"
   },
   "moduleNameMapper": {
     "^app/(.*)$": "<rootDir>/src/$1"
